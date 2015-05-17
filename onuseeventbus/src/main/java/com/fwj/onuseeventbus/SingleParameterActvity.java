@@ -12,7 +12,12 @@ import com.fwj.onuseeventbus.event.SingleEvent;
 import de.greenrobot.event.EventBus;
 
 /**
- * Created by WenJiang on 2015/5/15.
+ * 描述：EventBus单个注册参数演示<p>
+ *
+ * 目的：<p>
+ *       1.检测多个订阅者接受事件的处理<p>
+ *       2.对订阅者方法名的要求<p>
+ *
  */
 public class SingleParameterActvity extends BaseActivity implements View.OnClickListener {
 
